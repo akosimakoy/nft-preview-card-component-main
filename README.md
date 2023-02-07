@@ -10,11 +10,9 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -32,10 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Solution URL: https://github.com/akosimakoy/nft-preview-card-component-main
+- Live Site URL: https://nftpreviewcardfrontendmentor.netlify.app/
 
 ### Built with
 
@@ -45,14 +41,6 @@ Users should be able to:
 - CSS Grid
 
 
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
 In the future I wanted to master the hover state, the advantages and features of it.
@@ -60,9 +48,9 @@ In the future I wanted to master the hover state, the advantages and features of
 
 ### Useful resources
 
-
+https://developer.mozilla.org/en-US/
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - https://nftpreviewcardfrontendmentor.netlify.app/
+- Frontend Mentor - https://www.frontendmentor.io/profile/akosimakoy
