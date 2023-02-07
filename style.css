@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+--Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+--main-bg: hsl(217, 54%, 11%);
+--card-bg: hsl(216, 50%, 16%);
+--line: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+}
+
+html {
+    font-size: 18px;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+}
+main {
+    height: 100vh;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--main-bg);
+}
+img {
+    display: block;
+    width: 100%;
+}
+
+.card {
+    max-width: 350px;
+    background-color: var(--card-bg);
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: 1.33rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.container {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: var(--Cyan);
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+.card-nft {
+    border-radius: 0.5rem;
+}
+.container:hover .overlay {
+    opacity: 0.5;
+}
+.container:hover .eye {
+    display: block;
+    opacity: 1;
+    z-index: 1;
+}
+.eye {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2.5rem;
+    display: none;
+}
+.card-title {
+    font-size: 1.5rem;
+    color: var(--White);
+    font-weight: 600;
+    cursor: pointer;
+}
+.card-title:hover {
+    color: var(--Cyan);
+}
+.card-description {
+    font-size: 1rem;
+    color: var(--Soft-blue);
+    font-weight: 300;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.price-wrapper, .days-wrapper {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.price-wrapper img {
+    width: 0.75rem;
+}
+.days-wrapper img {
+    width: 1.25rem;
+}
+.price {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--Cyan);
+}
+.days {
+    color: var(--Soft-blue);
+}
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: var(--line);
+}
+.creator {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.creator img {
+    width: 2rem;
+    border: solid 1px var(--White);
+    border-radius: 100px;
+}
+.creator h2{
+    font-size: 0.95rem;
+    color: var(--Soft-blue);
+    font-weight: 300;
+}
+.creator span {
+    color: var(--White);
+    cursor: pointer;
+}
+.creator span:hover {
+    color: var(--Cyan);
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
